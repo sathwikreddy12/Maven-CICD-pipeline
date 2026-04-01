@@ -8,8 +8,7 @@
     <artifactId>maven-aap</artifactId>
     <name>maven-aap</name>     
     <version>1.0</version>
-
-    <name>spring-boot-demo</name>
+         
     <url></url>
 
     <parent>
