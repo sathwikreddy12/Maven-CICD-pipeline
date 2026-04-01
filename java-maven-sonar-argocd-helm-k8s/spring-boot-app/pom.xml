@@ -4,8 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.abhishek</groupId>
-    <artifactId>spring-boot-demo</artifactId>
+    <groupId>com.sathwik</groupId>
+    <artifactId>maven-aap</artifactId>
+    <name>maven-aap</name>     
     <version>1.0</version>
 
     <name>spring-boot-demo</name>
@@ -22,6 +23,8 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <java.version>11</java.version>
+        <sonar.projectKey>maven-cicd-pipeline</sonar.projectKey>
+        <sonar.projectName>Maven CICD Pipeline</sonar.projectName>     
     </properties>
 
     <dependencies>
