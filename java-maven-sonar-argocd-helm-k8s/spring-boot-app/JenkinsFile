@@ -71,7 +71,7 @@ pipeline {
 }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "Jenkins-Zero-To-Hero"
+            GIT_REPO_NAME = "Maven-CICD-pipeline"
             GIT_USER_NAME = "sathwikreddy12"
         }
         steps {
